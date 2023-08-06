@@ -1,0 +1,341 @@
+/* menu  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "sans-serif";
+}
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #333;
+}
+.nav-bar .menu ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  height: 100%;
+}
+.nav-bar .nav-bar__logo h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-left: 30px;
+  padding: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 10px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+.nav-bar .nav-bar__logo h1 span {
+  color: rgb(255, 107, 9);
+}
+
+.nav-bar .menu ul li {
+  list-style: none;
+  padding: 10px 10px;
+  margin-right: 15px;
+}
+.nav-bar .menu ul li:hover {
+  background-color: #888;
+  border-radius: 5px;
+}
+.nav-bar .menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.banner {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-image: url("https://images.unsplash.com/photo-1682685797507-d44d838b0ac7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.mask {
+  /* position: absolute; */
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.banner__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  text-align: center;
+}
+.banner__title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 10px;
+  line-height: 1.5;
+}
+.banner__description {
+  color: #fff;
+  font-size: 18px;
+}
+.btn {
+}
+.btn-primary {
+  background-color: rgb(255, 168, 110);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+/* .history */
+.history {
+  width: 100%;
+  height: 496px;
+  background-color: #333;
+  text-align: center;
+}
+.history-img__content {
+  display: block;
+  width: 100%;
+}
+.history-img {
+  float: left;
+  width: 50%;
+  height: 150px;
+  /* display: block; */
+}
+.history-content {
+  float: right;
+  width: 50%;
+  margin-top: 150px;
+}
+.history-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 10px;
+  line-height: 1.5;
+}
+.btn-history {
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  padding: 10px 20px;
+  border-radius: 5px;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+.history-description {
+  color: #fff;
+  font-size: 18px;
+}
+.travel-arrangements {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+}
+.travel-arrangements__item {
+  padding: 50px;
+  line-height: 1.5;
+}
+.travel-arrangements__item:nth-child(2) {
+  background-color: rgb(247, 182, 127);
+  color: #ffffff;
+}
+
+.whatour {
+  width: 100%;
+  height: 600px;
+  background-image: url("https://images.unsplash.com/photo-1682685797507-d44d838b0ac7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+.whatour-title {
+  text-align: center;
+  padding: 50px;
+}
+
+.whatour-title__content {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 10px 10px;
+  line-height: 1.5;
+}
+.whatour-content {
+}
+.whatour-content__item {
+  display: flex;
+  background-color: rgb(247, 182, 127);
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px;
+  margin-bottom: 5px;
+}
+.whatour-content__item__img {
+}
+.avata {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: block;
+}
+.whatour-item {
+  padding: 30px;
+  color: #fff;
+}
+/* form contac  */
+.contact {
+  margin-top: 200px !important;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  height: 600px;
+  /* đỗ bóng cho from  */
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 50px;
+  margin-bottom: 30px;
+}
+/* .contact-title {
+}
+.contact-title__content {
+}
+.contact-content {
+}
+.contact-form {
+}
+.contact-form__item {
+}
+.contact-form__label {
+}
+.contact-form__input {
+}
+.btn {
+} */
+.btn-contact {
+  background-color: rgb(255, 168, 110);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 20px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+footer {
+  width: 100%;
+  height: 200px;
+  background-color: #333;
+  text-align: center;
+  color: #fff;
+  padding: 50px;
+}
+
+/* reponsive cho mobi */
+@media screen and (max-width: 768px) {
+  .nav-bar .nav-bar__logo {
+    width: 100%;
+    text-align: center;
+  }
+  .nav-bar .menu {
+    width: 100%;
+  }
+  .nav-bar .menu > ul {
+    justify-content: space-evenly;
+  }
+  .banner__content .banner__description {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+  }
+  /* reponsive cho history */
+  .history {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: auto;
+  }
+  .history-img {
+    width: 100%;
+    height: 300px;
+  }
+  .history .btn-history {
+    display: none;
+  }
+  .history .history-description {
+    display: none;
+  }
+  .history .history-title {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .history-content {
+    width: 100%;
+    margin-top: 0;
+  }
+  .travel-arrangements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+  }
+  .whatour-content .whatour-content__item {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+  }
+}
+.contact {
+  height: 500px;
+  margin-top: 500px;
+}

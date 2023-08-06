@@ -1,0 +1,360 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "segoe ui", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+}
+.nav-bar {
+  /* padding: 10px 0; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+}
+
+a {
+  text-decoration: none;
+}
+.btn {
+  font-size: 16px;
+  padding: 16px 24px;
+  border: 0px;
+  border-radius: 2px;
+}
+img {
+  width: 100%;
+}
+.btn-primary {
+  background-color: #f7b67f;
+  color: #ffffff;
+}
+.btn-primary:hover {
+  background-color: #f7b67f;
+  color: #ffffff;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.btn-light:hover {
+  background-color: #f7b67f;
+  color: #ffffff;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.nav-bar__logo {
+  margin-left: 40px; /* Cách lề bên trái */
+}
+.nav-bar .nav-bar__logo {
+  color: white;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 14px 0 10px 50px;
+  cursor: pointer;
+}
+.nav-bar .nav-bar__logo span {
+  color: #f7b67f;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  /* cho 1 khoang cach giua cac menu */
+  justify-content: space- around;
+}
+
+.nav-bar .menu .menu-item {
+  /* Định dạng cho các mục menu ở đây */
+  text-decoration: none;
+  line-height: 16px;
+  font-size: 16px;
+  padding: 20px 20px;
+}
+.nav-bar .menu .menu-item a {
+  color: white;
+}
+/* css de nam cung 1 hang  */
+.nav-bar .menu .menu-item:hover {
+  background-color: #555;
+  color: #333;
+  border-radius: 5px;
+}
+
+/* show-case */
+.showcase {
+  background-image: url("https://images.unsplash.com/photo-1682685797507-d44d838b0ac7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.mask {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+}
+.container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  color: white;
+  padding-top: 200px;
+}
+.showcase .showcase-title {
+  font-size: 30px;
+}
+.showcase .showcase-desc {
+  padding: 30px 0 40px 0;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: "times new roman", Times, serif;
+}
+
+/* history  */
+.history {
+  background-color: #333;
+  overflow: auto;
+}
+.history .history-image {
+  width: 50%;
+  float: left;
+}
+.history .history-content {
+  width: 50%;
+  float: right;
+  text-align: center;
+  padding: 100px 40px 0px 40px;
+  color: white;
+}
+.history .history-content .history-title {
+  font-size: 30px;
+  /* padding-bottom: 20px; */
+}
+.history .history-content .history-title span {
+  color: #f7b67f;
+}
+.history .history-content .history-content-desc {
+  padding: 20px 0 40px 0;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: "times new roman", Times, serif;
+}
+/* faculity  */
+.faculity-item {
+  width: 33%;
+  display: inline-block;
+  text-align: center;
+  padding: 40px 20px;
+}
+.faculity-item .faculity-item-title {
+  font-size: 30px;
+  margin: 20px 0;
+}
+#faculity-item-2 {
+  background-color: #f7b67f;
+  color: white;
+}
+
+/* .customer-review */
+.customer-review {
+  background-image: url(https://images.unsplash.com/photo-1690184432960-ea288727b9c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
+}
+.customer-review .customer-review-item {
+  padding: 20px 30px;
+  background-color: #f7b67f;
+  opacity: calc(0.8 + 0.1 * n);
+  overflow: auto;
+  margin-top: 20px;
+}
+.customer-review .customer-review-item .customer-review-item-avatar {
+  width: 10%;
+  float: left;
+}
+.customer-review .customer-review-item .customer-review-item-avatar img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+.customer-review .customer-review-item .customer-review-item-content {
+  width: 90%;
+  border-radius: 50%;
+  float: right;
+  text-align: center;
+  padding-left: 30px;
+  margin-top: 10px;
+}
+.customer-review .container {
+  padding: 100px 0;
+}
+.customer-review .customer-review-title {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 40px;
+}
+.customer-review .customer-review-title span {
+  color: #f7b67f;
+}
+
+/* contac  */
+.contact-form {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin: 50px auto;
+}
+
+.form-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.btn_contact {
+  display: block;
+
+  padding: 12px;
+  background-color: #f7b67f;
+  width: 100%;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* footer  */
+/* Định dạng chung cho footer */
+footer {
+  background-color: #333; /* Màu nền của footer */
+  color: #fff; /* Màu chữ của footer */
+  padding: 20px 0; /* Khoảng cách giữa nội dung footer và viền của footer */
+  text-align: center;
+}
+
+/* Định dạng logo trong footer */
+.footer-content-logo h1 {
+  font-size: 24px; /* Kích thước chữ logo */
+  margin: 0; /* Xóa khoảng cách mặc định của h1 */
+}
+
+.footer-content-logo span {
+  color: #ff6f00; /* Màu chữ của phần span trong logo */
+}
+
+/* Định dạng mô tả trong footer */
+.footer-content-desc {
+  font-size: 14px; /* Kích thước chữ mô tả */
+  margin-top: 10px; /* Khoảng cách giữa logo và mô tả */
+}
+
+/* Định dạng mạng xã hội trong footer */
+.footer-content-social a {
+  color: #fff; /* Màu chữ của các biểu tượng mạng xã hội */
+  margin-right: 10px; /* Khoảng cách giữa các biểu tượng mạng xã hội */
+  font-size: 20px; /* Kích thước biểu tượng */
+}
+
+/* Hover effect cho biểu tượng mạng xã hội */
+.footer-content-social a:hover {
+  color: #0011ff; /* Màu chữ khi hover vào biểu tượng */
+}
+
+/* reponsive  */
+/* Thêm code CSS ở đây */
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  /* Điều chỉnh kích thước và căn giữa các phần tử trong menu khi màn hình nhỏ hơn 768px */
+  .nav-bar {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nav-bar .nav-bar__logo {
+    padding: 10px 0 10px 0;
+    margin-left: 0;
+  }
+
+  .nav-bar .menu ul {
+    margin-top: 20px; /* Khoảng cách giữa logo và các mục menu khi màn hình nhỏ hơn 768px */
+  }
+  /* Điều chỉnh kích thước và căn giữa các phần tử trong showcase khi màn hình nhỏ hơn 768px */
+  .showcase .container {
+    padding-top: 100px;
+  }
+
+  .showcase .showcase-title {
+    font-size: 24px;
+  }
+
+  .showcase .showcase-desc {
+    font-size: 14px;
+  }
+
+  /* Điều chỉnh kích thước và căn giữa các phần tử trong history khi màn hình nhỏ hơn 768px */
+  .history .history-image,
+  .history .history-content {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  .history .history-content {
+    padding: 50px 20px;
+  }
+
+  /* Điều chỉnh kích thước và căn giữa các phần tử trong faculity khi màn hình nhỏ hơn 768px */
+  .faculity-item {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Điều chỉnh kích thước và căn giữa các phần tử trong customer-review khi màn hình nhỏ hơn 768px */
+  .customer-review .customer-review-item {
+    padding: 10px 20px;
+  }
+
+  .customer-review .customer-review-item .customer-review-item-avatar img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .customer-review .customer-review-item .customer-review-item-content {
+    padding-left: 10px; /* Khoảng cách giữa avatar và nội dung đánh giá */
+  }
+  .history-content > .history-title {
+    line-height: 3;
+  }
+}
