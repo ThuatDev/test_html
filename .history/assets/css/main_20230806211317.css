@@ -217,18 +217,6 @@
   color: #fff;
 }
 /* form contac  */
-/* .contact {
-  height: 600px;
-  display: block;
-  width: 80%;
-  margin: 0 auto;
-
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  background-color: #fff;
-  padding: 50px;
-  margin-bottom: 30px;
-} */
 /* Apply styles to the contact section */
 .contact {
   background-color: #f5f5f5;
@@ -250,7 +238,7 @@
 .contact-form {
   display: flex;
   flex-direction: column;
-  max-width: 80%;
+  max-width: 400px;
   margin: 0 auto;
 }
 
@@ -291,7 +279,20 @@
   background-color: #0056b3;
 }
 
-/* css  */
+.contact-title {
+}
+.contact-title__content {
+}
+.contact-content form {
+}
+.contact-form {
+}
+.contact-form__item {
+}
+.contact-form__label {
+}
+.contact-form__input {
+}
 
 .btn-contact {
   background-color: rgb(255, 168, 110);
@@ -381,20 +382,8 @@ footer {
     width: 100%;
     height: auto;
   }
-  .whatour-content .whatour-content__item .whatour-item {
-    padding: 0;
-  }
-  .whatour-content .whatour-content__item .whatour-item .avata {
-    margin: 0 auto;
-  }
-  .whatour-title {
-    padding: 0;
-  }
-  .whatour-title .whatour-title__content {
-    margin: 0 auto;
-    width: 100%;
-  }
-  .whatour {
-    height: auto;
+  .contact {
+    height: 500px;
+    margin-top: 500px;
   }
 }

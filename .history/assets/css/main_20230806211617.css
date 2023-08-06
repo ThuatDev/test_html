@@ -390,11 +390,4 @@ footer {
   .whatour-title {
     padding: 0;
   }
-  .whatour-title .whatour-title__content {
-    margin: 0 auto;
-    width: 100%;
-  }
-  .whatour {
-    height: auto;
-  }
 }

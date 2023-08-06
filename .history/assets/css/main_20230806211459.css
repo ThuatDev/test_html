@@ -381,20 +381,8 @@ footer {
     width: 100%;
     height: auto;
   }
-  .whatour-content .whatour-content__item .whatour-item {
-    padding: 0;
-  }
-  .whatour-content .whatour-content__item .whatour-item .avata {
-    margin: 0 auto;
-  }
-  .whatour-title {
-    padding: 0;
-  }
-  .whatour-title .whatour-title__content {
-    margin: 0 auto;
-    width: 100%;
-  }
-  .whatour {
-    height: auto;
+  .contact {
+    height: 500px;
+    margin-top: 500px;
   }
 }

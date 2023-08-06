@@ -217,81 +217,37 @@
   color: #fff;
 }
 /* form contac  */
-/* .contact {
+.contact {
   height: 600px;
   display: block;
   width: 80%;
   margin: 0 auto;
 
+  /* đỗ bóng cho from  */
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
   border-radius: 5px;
   background-color: #fff;
   padding: 50px;
   margin-bottom: 30px;
-} */
-/* Apply styles to the contact section */
-.contact {
-  background-color: #f5f5f5;
-  padding: 20px;
 }
-
-/* Style the contact title */
 .contact-title {
-  text-align: center;
-  margin-bottom: 20px;
 }
-
 .contact-title__content {
-  font-size: 24px;
-  color: #333;
 }
+.contact-content form{
 
-/* Style the contact form */
+
+
+}
 .contact-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 80%;
-  margin: 0 auto;
 }
-
 .contact-form__item {
-  margin-bottom: 20px;
 }
-
 .contact-form__label {
-  font-size: 16px;
-  font-weight: bold;
 }
-
-.contact-form__input,
-.contact-form__input[type="email"],
-.contact-form__input[type="text"],
-.contact-form__input[type="textarea"] {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+.contact-form__input {
 }
-
-.contact-form__input[type="textarea"] {
-  resize: vertical;
-}
-
-.btn-contact {
-  background-color: #007bff;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-/* Style the button on hover */
-.btn-contact:hover {
-  background-color: #0056b3;
-}
-
-/* css  */
+.btn {
 
 .btn-contact {
   background-color: rgb(255, 168, 110);
@@ -381,20 +337,8 @@ footer {
     width: 100%;
     height: auto;
   }
-  .whatour-content .whatour-content__item .whatour-item {
-    padding: 0;
-  }
-  .whatour-content .whatour-content__item .whatour-item .avata {
-    margin: 0 auto;
-  }
-  .whatour-title {
-    padding: 0;
-  }
-  .whatour-title .whatour-title__content {
-    margin: 0 auto;
-    width: 100%;
-  }
-  .whatour {
-    height: auto;
+  .contact {
+    height: 500px;
+    margin-top: 500px;
   }
 }
